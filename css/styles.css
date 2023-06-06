@@ -37,6 +37,10 @@
 
 /* General styles */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
@@ -132,11 +136,13 @@ h3 { font-size: var(--fs-h3) }
 header {
     display: flex;
     justify-content: space-between;
-    /* padding: 1em; */
+    padding: 1em 0;
 }
 
 .logo {
     max-width: 100px;
+    /* z-index: 4; */
+    /* position: fixed; */
 }
 
 .nav {
@@ -148,11 +154,11 @@ header {
 }
 
 .nav__list {
+    list-style-type: none;
     display: flex;
 }
 
 .nav__list li {
-    list-style-type: none;
     padding: 0 1em;
 }
 
