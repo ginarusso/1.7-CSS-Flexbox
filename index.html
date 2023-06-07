@@ -7,13 +7,16 @@
     <title>Gina Russo</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css"> 
 </head>
 <body>
     <header>
-        <div class="logo">
+        <!-- <div class="logo">
             <img src="images/logo.jpg" alt="">LOGO
-        </div>
+        </div> -->
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
@@ -107,10 +110,10 @@
 				<label for="name">Name:</label>
 				<input class="name" type="text" name="name" id="name" placeholder="first and last name" required>
 				<label for="email">Email:</label>
-				<input class="input" type="email" name="email" id="email" placeholder="email address" required>
+				<input class="input" type="email" name="email" id="email" placeholder="email address">
 				<label for="question">Question:</label>
-				<textarea cols="30" rows="10" type="text" name="textArea" id="textArea" placeholder="type your question here" required></textarea>
-				<button class="btn" type="button">Submit</button>
+				<textarea cols="30" rows="6" name="question" id="question" placeholder="type your question here" required></textarea>
+				<button class="btn">Submit</button>
 			</form>
         </section>
         
@@ -118,26 +121,27 @@
         <footer class="footer">
             <ul class="social-list">
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.ginarusso.com">
+                    <a target="_blank" class="social-list__link" href="https://www.ginarusso.com">
                         <i class="fa-solid fa-robot"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/gina-p-russo/">
+                    <a target="_blank" class="social-list__link" href="https://www.linkedin.com/in/gina-p-russo/">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/ginarusso">
+                    <a target="_blank" class="social-list__link" href="https://github.com/ginarusso">
                         <i class="fa-brands fa-github"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com/readthinkcode">
+                    <a target="_blank" class="social-list__link" href="https://twitter.com/readthinkcode">
                         <i class="fa-brands fa-square-twitter"></i>
                     </a>
                 </li>
             </ul>
-        </footer> 
+        </footer>
+        <script src="index.js"></script> 
     </body>
 </html>
