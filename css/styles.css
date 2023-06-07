@@ -407,6 +407,13 @@ header {
     }
 }
 
+/* My Video Resume */
+
+.my-video-resume {
+    background-color: var(--clr-accent);
+    text-align: center;
+}
+
 /* My Projects */
 
 .my-projects {
