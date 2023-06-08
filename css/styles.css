@@ -55,6 +55,22 @@ section {
     padding: 4em 2em;
 }
 
+.arrows {
+    width: 50px;
+    float: right;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: black;
+    z-index: 100;
+    transition: transform 200ms ease-in-out;
+}
+
+.arrows:hover {
+    border: 2px solid white;
+    transform: scale(1.1);
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -338,6 +354,7 @@ header {
     background-color: var(--clr-dark);
     background-image: url(../images/services-bg.jpg);
     background-size: cover;
+    background-attachment: fixed, fixed;
     /* background-blend-mode: multiply; */
     color: var(--clr-light);
     text-align: center;
@@ -485,17 +502,26 @@ header {
     display: flex;
     justify-content: center;
     padding: 2em;
+    background-image: url(../images/letter.jpg);
+    background-size: cover;
+    background-attachment: fixed, fixed;
+}
+
+form {
+    background-color: #fff;
+    padding: 2em 6em;
 }
 
 .contact h2 {
     margin-bottom: 1em;
     font-family: var(--ff-title);
+    color: var(--clr-dark);
 }
 
 label {
     font-weight: var(--fw-bold);
     display: block;
-    color: var(--clr-accent);
+    color: var(--clr-dark);
     font-size: var(--fs-h3);
     }
 
