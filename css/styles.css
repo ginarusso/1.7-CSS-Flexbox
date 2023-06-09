@@ -223,7 +223,7 @@ header {
     cursor: pointer;
     position: absolute;
     right: 1em;
-    top: 1em;
+    top: 2em;
     z-index: 1000;
 }
 
@@ -444,6 +444,7 @@ header {
 .my-video-resume {
     background-color: var(--clr-accent);
     text-align: center;
+    font-family: var(--ff-title);
 }
 
 .my-video-resume h2 {
