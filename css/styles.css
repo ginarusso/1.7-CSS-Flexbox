@@ -499,17 +499,29 @@ header {
 
 /* contact */
 
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
 .contact {
     display: flex;
     justify-content: center;
     padding: 2em;
-    background-image: url(../images/letter.jpg);
+    background-image: url(../images/desk.jpg);
     background-size: cover;
     background-attachment: fixed, fixed;
 }
 
 form {
-    background-color: #fff;
+    background-color: #ffffff80;
     padding: 2em 6em;
 }
 
