@@ -75,7 +75,6 @@ section {
 img {
     display: block;
     max-width: 100%;
-    /* border-radius: 10px; */
 }
 
 strong { font-weight: var(--fw-bold) }
@@ -307,11 +306,13 @@ header {
 
 .intro {
     position: relative;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
-.intro__img {
+.intro__img,
+.about-me__img {
     box-shadow: var(--bs);
+    border-radius: 10px;
 }
 
 /*  keeps width to the size of itself  */
