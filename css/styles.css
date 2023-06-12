@@ -172,7 +172,7 @@ h3 { font-size: var(--fs-h3) }
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1em 0;
+    padding: .5em 0;
 }
 
 .logo {
@@ -310,6 +310,7 @@ header {
 .intro {
     position: relative;
     min-height: 50vh;
+    background-color: var(--clr-light);
 }
 
 .intro__img,
