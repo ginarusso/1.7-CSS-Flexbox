@@ -49,6 +49,9 @@ body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+    background-image: url('../images/white-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section {
@@ -80,7 +83,7 @@ img {
 strong { font-weight: var(--fw-bold) }
 
 :focus {
-    outline: 3px solid var(--clr-accent);
+    outline: 3px solid #db7093;
     outline-offset: 3px;
 }
 
@@ -255,7 +258,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-accent);
+    background-color: #db7093;
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -401,6 +404,10 @@ header {
     }
 }
 
+#about {
+    background-color: var(--clr-light);
+}
+
 .about-me {
     max-width: 1000px;
     margin: 0 auto;
@@ -445,7 +452,7 @@ header {
 /* My Video Resume */
 
 .my-video-resume {
-    background-color: var(--clr-accent);
+    background-color: #ffbcd9;
     text-align: center;
     font-family: var(--ff-title);
 }
