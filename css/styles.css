@@ -512,14 +512,14 @@ header {
     padding: 2em;
     background-image: url(../images/desk.jpg);
     background-size: cover;
-    background-attachment: fixed, fixed;
+    background-attachment: fixed;
 }
 
 form {
     display: flex;
     flex-direction: column;
     background-color: #ffffff80;
-    padding: 2em 6em;
+    padding: 1.5em;
 }
 
 .contact h2 {
