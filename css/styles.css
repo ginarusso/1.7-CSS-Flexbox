@@ -68,6 +68,7 @@ section {
     z-index: 100;
     transition: transform 200ms ease-in-out;
     display: none;
+    margin: 15px;
 }
 
 .arrows:hover {
@@ -184,7 +185,7 @@ header {
 }
 
 @media (max-width: 600px) {
-    
+
 .nav {
     position: fixed;
     background: var(--clr-dark);
@@ -638,4 +639,5 @@ form .btn {
         color: var(--clr-accent);
         font-weight: var(--fw-bold);
     }
+
 }
