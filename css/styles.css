@@ -516,6 +516,8 @@ header {
 }
 
 form {
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff80;
     padding: 2em 6em;
 }
