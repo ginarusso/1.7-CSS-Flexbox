@@ -184,7 +184,7 @@ header {
 }
 
 @media (max-width: 600px) {
-
+    
 .nav {
     position: fixed;
     background: var(--clr-dark);
