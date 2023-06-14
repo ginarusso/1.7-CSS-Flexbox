@@ -538,6 +538,7 @@ textarea {
     font-size: var(--fs-body);
     font-family: var(--ff-primary);
     padding: 0 .25em;
+    width: 100%;
 }
 
 form .btn {
