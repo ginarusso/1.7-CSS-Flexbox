@@ -544,6 +544,7 @@ textarea {
 
 form .btn {
     display: block;
+    margin-top: 1em;
 }
 
 /* footer */
