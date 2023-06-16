@@ -185,6 +185,18 @@ header {
 
 @media (max-width: 600px) {
 
+.intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.intro__img, 
+.about-me__img {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .nav {
     position: fixed;
     background: var(--clr-dark);
@@ -271,7 +283,6 @@ header {
     border-radius: 1em;
     transition: transform 250ms ease-in-out;
 }
-
 
 .hamburger::before,
 .hamburger::after {
