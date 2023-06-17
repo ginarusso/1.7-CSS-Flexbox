@@ -138,7 +138,7 @@ h3 { font-size: var(--fs-h3) }
 .section__title {
     margin-bottom: .25em;
     font-family: var(--ff-title);
-    margin-top: .25em;
+    margin-top: 1em;
 }
 
 .section__title--intro {
@@ -301,8 +301,10 @@ header {
 
 .intro {
     position: relative;
-    min-height: 50vh;
+    min-height: 100vh;
     background-color: var(--clr-light);
+    background-image: url(../images/laptop.jpg);
+    background-size: cover;
     z-index: -1;
 }
 
@@ -354,7 +356,8 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../images/services-bg.jpg);
+    /* background-image: url(../images/services-bg.jpg); */
+    background-image: url(../images/scrim.png);
     background-size: cover;
     background-attachment: fixed, fixed;
     /* background-blend-mode: multiply; */
@@ -505,7 +508,7 @@ header {
 
 /* contact */
 
-#background-video {
+/* #background-video {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -515,7 +518,7 @@ header {
     top: 0;
     bottom: 0;
     z-index: -1;
-  }
+  } */
 
 .contact {
     display: flex;
