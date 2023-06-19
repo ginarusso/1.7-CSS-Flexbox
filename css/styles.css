@@ -660,4 +660,8 @@ form .btn {
         font-weight: var(--fw-bold);
     }
 
+    .nav__link:hover {
+        color: var(--clr-dark);
+    }
+
 }
